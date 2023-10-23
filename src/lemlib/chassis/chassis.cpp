@@ -325,6 +325,7 @@ void lemlib::Chassis::swingTo(bool leftSwing, float angle, int timeout, bool asy
     while (pros::competition::get_status() == compState && !pid.settled()) {
         // update variables
         Pose pose = getPose();
+        pose.theta = (reversed) ? fmod(pose.theta - 180, 360) : fmod(pose.theta, 360);
 
         // update completion vars
         distTravelled = fabs(angleError(pose.theta, startTheta));

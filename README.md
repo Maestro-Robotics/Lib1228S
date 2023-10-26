@@ -11,8 +11,8 @@ This project is licensed under the MIT license. Check [LICENSE](https://github.c
 - Odometry
 - Odom MoveToPoint
 - Odom TurnToAngle
-- Odom swingToAngle
-- Odom turn to face point
+- Odom SwingToAngle
+- Odom TurnToFacePoint
 - [Boomerang controller](https://www.desmos.com/calculator/sptjw5szex)
 - Pure Pursuit
 - [Path Generator](https://github.com/LemLib/Path-Gen) support

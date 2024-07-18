@@ -1,6 +1,6 @@
-# lib1228S
+# lib1228S (Outdated/Used in 2023 Early - Mid Season)
 
-Welcome to lib1228S! This is a PROS3-template based off of Lemlib, with many modifications, including turntoangle, and swing functions.
+Welcome to lib1228S! This is a PROS3-template based off of Lemlib, with many modifications, ~~including turntoangle, and swing functions~~. (These Features were added to Lemlib in V0.5.0)
 
 ## License
 
